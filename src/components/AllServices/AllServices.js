@@ -18,7 +18,7 @@ const AllServices = (props) => {
                         <p><span className="font-semibold text-lg">{enrolled}</span> Enrolled</p>
                     </div>
 
-                    <h2 className="font-semibold text-xl py-3.5">{title}</h2>
+                    <h2 className="font-semibold text-lg py-3.5">{title}</h2>
 
                     <div className="flex items-center text-base text-gray-600 pb-4">
                         <p className=" mr-6"><span className="text-pink-600 text-base"><i className="fas fa-clock"></i></span> {hour} hr {minutes} min</p>
@@ -29,7 +29,7 @@ const AllServices = (props) => {
                     {/* Instructor Details */}
                     <div className="border-t flex justify-between items-center py-3.5 px-1">
                         <div className="flex items-center gap-4 text-lg">
-                            <img className="w-10 rounded-full" src={instructorThumb} alt="" />
+                            <img className="w-10 h-10 rounded-full" src={instructorThumb} alt="" />
                             <p>{instructor}</p>
                         </div>
                         <p className="font-bold text-xl text-gray-600">$<span className="text-passion text-2xl">{price}</span></p>
