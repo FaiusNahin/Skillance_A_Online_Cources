@@ -6,6 +6,7 @@ const Footer = () => {
     return (
         <div className="flex justify-center bg-indigo-900 py-24 px-80">
             <div className=" grid grid-cols-5 justify-items-center">
+
                 {/* Footer Company Moto and Subscription  */}
                 <div className="col-span-2">
                     <div className="flex items-center text-white">
@@ -20,6 +21,7 @@ const Footer = () => {
                         <button className="text-lg text-white bg-heading py-3.5 px-5 rounded-r-md">Subscribe</button>
                     </form>
                 </div>
+
                 {/* Footer Quick Links */}
                 <div className="flex flex-col items-center">
                     <p className="text-2xl font-bold text-white">Quick Links</p>
@@ -44,6 +46,7 @@ const Footer = () => {
                         >About</NavLink>
                     </div>
                 </div>
+
                 {/* Footer Contact Us */}
                 <div className="flex flex-col items-center">
                     <p className="text-2xl font-bold text-white pb-1">Need Some Help?</p>
@@ -54,6 +57,8 @@ const Footer = () => {
                         }}
                     >Contact</NavLink>
                 </div>
+
+                {/* Footer Location */}
                 <div className="flex flex-col items-center ">
                     <p className="text-2xl font-bold text-white pb-2">Location</p>
                     <div className="flex flex-col items-center text-lg text-gray-500">

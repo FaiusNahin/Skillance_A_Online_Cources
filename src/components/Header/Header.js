@@ -7,11 +7,13 @@ const Header = () => {
     return (
         <div className="flex items-center justify-evenly pt-5">
             <div className="flex items-center">
+
                 {/* Website Logo & Name */}
                 <div className="flex items-center">
                     <img className="w-16" src={img} alt="" />
                     <p className="text-4xl font-medium text-indigo-900">SKILLANCE</p>
                 </div>
+
                 {/* All NavLinks */}
                 <div className="pl-10 text-xl text-indigo-900">
                     <NavLink to="/home"
@@ -44,6 +46,7 @@ const Header = () => {
                     >Contact</NavLink>
                 </div>
             </div>
+
             {/* Getting Started Button */}
             <div>
                 <button className="text-xl text-white bg-heading py-3 px-4 rounded">Get Started</button>

@@ -6,9 +6,12 @@ const AllServices = (props) => {
     return (
         <div className="shadow-all p-3 rounded-lg">
             <div className="">
+                {/* Service Image */}
                 <div className="">
                     <img className="rounded w-full" src={img} alt="" />
                 </div>
+
+                {/* Service Details */}
                 <div className="pt-3 px-1">
                     <div className="flex justify-between">
                         <p className="bg-indigo-50 text-indigo-600 py-1 px-5 rounded-3xl text-lg">{type}</p>
@@ -22,6 +25,8 @@ const AllServices = (props) => {
                         <p className=" mr-6"><span className="text-passion text-base"><i className="fas fa-video"></i></span> {lecture} Lectures</p>
                         <p className=" mr-6"><span className="text-indigo-900 text-base"><i class="fas fa-signal"></i></span> {level}</p>
                     </div>
+
+                    {/* Instructor Details */}
                     <div className="border-t flex justify-between items-center py-3.5 px-1">
                         <div className="flex items-center gap-4 text-lg">
                             <img className="w-10 rounded-full" src={instructorThumb} alt="" />
