@@ -13,11 +13,13 @@ const Home = () => {
 
     return (
         <div>
+            {/* Banner */}
             <div>
                 <Banner></Banner>
             </div>
+            {/* Courses Heading */}
             <div className="flex flex-col items-center my-14">
-                <h1 className="text-5xl mb-8 font-medium text-indigo-900">Explore Featured <span className="text-passion">Cources</span></h1>
+                <h1 className="text-5xl mb-8 font-medium text-indigo-900">Explore Featured <span className="text-passion">Courses</span></h1>
                 <p className="text-center w-2/4 text-gray-600 text-lg">Skillance specializes in designing training programs tailored to meet your organization's specific needs, designed to get results within your specific time-frame and budget. </p>
             </div>
             <div className="services flex justify-center itens-center py-20">
