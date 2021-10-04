@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "img": "https://themezhub.net/skillup-demo/assets/img/cr-1.jpg",
+        "type": "Design",
+        "enrolled": "6,204",
+        "title": "UI/UX Design Pattern For Succesfull Software Applications",
+        "hour": 10,
+        "minutes": 7,
+        "lecture": 82,
+        "level": "Beginer",
+        "instructor": "Maria Sheel",
+        "instructorThumb": "https://themezhub.net/skillup-demo/assets/img/user-6.jpg",
+        "price": 152
+    },
+    {
+        "id": 2,
+        "img": "https://themezhub.net/skillup-demo/assets/img/cr-2.jpg",
+        "type": "History",
+        "enrolled": "7,029",
+        "title": "Basic Knowledge About Hodiernal Bharat In History",
+        "hour": 5,
+        "minutes": 16,
+        "lecture": 32,
+        "level": "Beginer",
+        "instructor": "Robert Fox",
+        "instructorThumb": "https://themezhub.net/skillup-demo/assets/img/team-5.jpg",
+        "price": 99
+    },
+    {
+        "id": 3,
+        "img": "https://themezhub.net/skillup-demo/assets/img/cr-3.jpg",
+        "type": "Development",
+        "enrolled": "2,358",
+        "title": "Advance PHP Knowledge With Laravel To Make Smart Web",
+        "hour": 6,
+        "minutes": 33,
+        "lecture": 42,
+        "level": "Advanced",
+        "instructor": "Faye Herrera",
+        "instructorThumb": "https://themezhub.net/skillup-demo/assets/img/user-4.jpg",
+        "price": 128
+    },
+    {
+        "id": 4,
+        "img": "https://themezhub.net/skillup-demo/assets/img/cr-4.jpg",
+        "type": "Accounting",
+        "enrolled": "8,350",
+        "title": "The Complete Accounting & Bank Financial Course 2021",
+        "hour": 4,
+        "minutes": 10,
+        "lecture": 58,
+        "level": "Beginer",
+        "instructor": "Kevin Smith",
+        "instructorThumb": "https://themezhub.net/skillup-demo/assets/img/user-3.jpg",
+        "price": 79
+    }
+]
