@@ -12,6 +12,13 @@ module.exports = {
       boxShadow: {
         all: '0 0 23px 0 rgb(62 28 131 / 13%)',
         contact: '0px 0px 10px 0px rgb(0 0 0 / 10%)'
+      },
+      width: {
+        medium: '168px',
+        almost: '95%',
+        card: '88%',
+        header: '70%',
+        heading: '59%'
       }
     },
   },

@@ -1,15 +1,11 @@
-import React, { useEffect, useState } from 'react';
+import { useServices } from '../../hooks/useServices';
 import Banner from '../Banner/Banner';
 import Service from '../Service/Service';
 
 const Home = () => {
-    const [services, setServices] = useState([]);
+    const [services] = useServices();
 
-    useEffect(() => {
-        fetch('./fakedata.JSON')
-            .then(res => res.json())
-            .then(data => setServices(data))
-    }, []);
+    const homeServices = services.filter(service => service.id <= 4);
 
     return (
         <div>
@@ -19,16 +15,16 @@ const Home = () => {
             </div>
 
             {/* Services Heading */}
-            <div className="flex flex-col items-center my-14">
-                <h1 className="text-5xl mb-8 font-medium text-indigo-900">Explore Featured <span className="text-passion">Courses</span></h1>
-                <p className="text-center w-2/4 text-gray-600 text-lg">Skillance specializes in designing training programs tailored to meet your organization's specific needs, designed to get results within your specific time-frame and budget. </p>
+            <div className="flex flex-col items-center text-center mt-28 mb-20 lg:mb-28">
+                <h1 className="text-4xl mb-8 font-medium text-indigo-900 w-11/12 sm:w-full md:text-5xl">Explore Featured <span className="text-passion">Courses</span></h1>
+                <p className="text-center text-gray-600 w-5/6 text-lg md:w-4/6 lg:w-3/4 xl:w-3/5 2xl:w-2/5">Skillance specializes in designing training programs tailored to meet your organization's specific needs, designed to get results within your specific time-frame and budget. </p>
             </div>
 
             {/* Services */}
-            <div className="services flex justify-center itens-center py-20">
-                <div className="grid grid-cols-2 w-3/5 gap-10">
+            <div className="services flex justify-center itens-center pb-20">
+                <div className="grid grid-cols-1 gap-10 w-11/12 md:w-3/5 lg:grid-cols-2 lg:w-card xl:w-9/12 2xl:w-7/12">
                     {
-                        services.map(service => <Service
+                        homeServices.map(service => <Service
                             key={service.id}
                             service={service}
                         ></Service>)
