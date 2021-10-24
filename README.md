@@ -1,6 +1,6 @@
 # Skillance A Online Cources React App
 
-This project was bootstrapped with Create React App & Live Site. [Link](https://skillance-courses-faiusnahin-035869.netlify.app/).
+This project was bootstrapped with Create React App & Live Site [Link](https://skillance-courses-faiusnahin-035869.netlify.app/).
 
 ## About Skillance
 
