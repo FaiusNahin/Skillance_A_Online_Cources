@@ -1,4 +1,4 @@
-# Skillance A Online Cources React App
+# Skillance A Online Cource React App
 
 This project was bootstrapped with Create React App & Live Site [Link](https://skillance-courses-faiusnahin-035869.netlify.app/).
 
@@ -6,7 +6,7 @@ This project was bootstrapped with Create React App & Live Site [Link](https://s
 
 In the project directory, you can find:
 
-### `Build Your Skills With Online Courses`
+### `Build Your Skills With Online Course`
 
 Skillance is a leading supplier of business, project and quality management solutions.\
 Which give you a way to improve your skills.
