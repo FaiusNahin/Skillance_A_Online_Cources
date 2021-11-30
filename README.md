@@ -24,7 +24,7 @@ React Router.v5
 Where I use React Router to connect each other.
 
 > For Smooth Routing I used React Router v5
-> 
+
 > Used not so much CSS
 
 > Here I also try to do this site responsive by using Tailwind.
