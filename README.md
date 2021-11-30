@@ -1,23 +1,33 @@
-# Skillance A Online Course React App
+# Skillance A Online Course
 
-This project was bootstrapped with Create React App & Live Site [Link](https://skillance-courses-faiusnahin-035869.netlify.app/).
+This project is a front-end development type project. This project build with JS and React Router.\
+You can see in this [Project](https://skillance-courses-faiusnahin-035869.netlify.app/).
 
-## About Skillance
+## Uses Platform
 
-In the project directory, you can find:
+In this project I used:
 
-### `Build Your Skills With Online Course`
+React Bootstrap\
+Javascript\
+React\
+React Router.v5\
+React Hook Form\
+Firebase
 
-Skillance is a leading supplier of business, project and quality management solutions.\
-Which give you a way to improve your skills.
+## Features
 
-### `Best Course For You`
+1. A clean and responsive SPA that helps patients to book their appointments
+2. Password authentication used for the user login system 
+3. Logged user see all services, book appointments, seminars, therapy details and doctors schedule
+4. Free seminars section is good opportunities for remove stress of peoples 
 
-Skillance specializes in designing training programs tailored to meet your specific \
-needs and Its Buddget Friendly also time Flexible.
+## About Project Details
 
+> If you visit this [Project](https://healthcare-website-faiusnahin.web.app/), you can see some pages link with each others.\
+Where I use React Router to connect each other.
 
-### `What We Do & Our Aim`
+> There also have some private route. which is not open until login.\
+For login process there used Firebase. You can login with using google sign in or your personal email.
 
-We are comitted to provide best services in our courses and we enshure that\
-there will be no compromise to provide you support.
+> Here I also try to do this site responsive by using bootstrap.\
+Also used hook for use same data in different components.
