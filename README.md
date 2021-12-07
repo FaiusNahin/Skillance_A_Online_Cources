@@ -28,4 +28,4 @@ Where I use React Router to connect each other.
 
 > Used not so much CSS
 
-> Here I also try to do this site responsive by using Tailwind.
+> Here I also made this site responsive by using Tailwind.
