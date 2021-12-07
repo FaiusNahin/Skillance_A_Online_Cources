@@ -15,8 +15,9 @@ React Router.v5
 ## Features
 
 1. An Online Course that helps students to make their time effective by online course.
-2. Students can choose a course and feel free to contact with us.
-3. A Clear and Responsive UI.
+2. Students can choose a course and feel free to contact us.
+3. There are many routes like- Home, Service, About, Contact, those are made by React Router
+4. A Clear and Responsive UI. 
 
 ## About Project Details
 
