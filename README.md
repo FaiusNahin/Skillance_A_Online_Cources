@@ -14,7 +14,7 @@ React Router.v5
 
 ## Features
 
-1. A Online Course SPA that helps students to make their time effective by online course.
+1. An Online Course SPA that helps students to make their time effective by online course.
 2. Students can choose a course and feel free to contact with us.
 3. A Clear and Responsive UI.
 
