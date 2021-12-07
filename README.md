@@ -1,6 +1,6 @@
 # Skillance A Online Course
 
-This project is a front-end development type project. This project build with JS and React Router.\
+This project is a front-end development type project. This project build with Javascript and its framework(React).\
 You can see in this [Project](https://skillance-courses-faiusnahin-035869.netlify.app/).
 
 ## Uses Platform
