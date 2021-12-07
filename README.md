@@ -15,8 +15,8 @@ React Router.v5
 ## Features
 
 1. A Online Course SPA that helps students to make their time effective by online course.
-2. A Clear and Responsive UI that students are choose a course.
-3. The page will take some times because of fake data loading or network issues.
+2. Students can choose a course and feel free to contact with us.
+3. A Clear and Responsive UI.
 
 ## About Project Details
 
